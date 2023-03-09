@@ -7,14 +7,12 @@ class APP:
         #時間設置
         self.time_out=120.9 #暫停時長
         self.clock=180.9 #比賽時長
-        # after 100ms : 0.10725s
-        # after 10ms  : 0.0155s
-        self.batch_time=0.0155 #每次減多少秒
-        self.after_time=10 #after執行頻率(ms)
+        self.batch_time = 0.10725 #每次減多少秒
+        self.after_time = 100 #after執行頻率(ms)
 
         pygame.mixer.init()
-        pygame.mixer.music.load("theme.mp3")
-        pygame.mixer.music.play(-1)
+        # pygame.mixer.music.load("theme.mp3") # 這兩行為背景音樂開關，可自行選擇要不要開啟
+        # pygame.mixer.music.play(-1)
         self.fighting = False
         
         self.app=tk.Tk()
