@@ -1,5 +1,5 @@
 # Guide
-open 記分板.bat
+open RobotScoreBoard.bat
 
 # Function Keys
 F11 : FullScreen Switch\
