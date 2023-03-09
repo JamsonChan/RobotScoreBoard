@@ -9,3 +9,4 @@ F3 : 計時3分鐘
 
 尚未修復的bug : 需要按Del多次才能完全關閉\
 尚未改進的問題 : 因使用grid布局，導致無法隨螢幕比例做最佳調整
+<img width="1258" alt="螢幕擷取畫面 2023-03-09 182409" src="https://user-images.githubusercontent.com/86592497/223996095-9409759a-c3ed-4c30-b230-3b12d11b8b0a.png">
